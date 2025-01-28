@@ -3,8 +3,7 @@
 def saluta
     a = "ciao"
     puts a
-    l = a.length
-    return l
+    a.length
 end    
 
 saluta
