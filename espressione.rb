@@ -16,9 +16,12 @@ def divisione(a, b)
   a / b
 end
 
-m = moltiplicazione(4, 5)
-s = somma(2, 10)
-d = divisione(m, s)
-s1 = somma(3, d)
-risultato = sottrazione(s1, 7)
-puts risultato 
+# m = moltiplicazione(4, 5)
+# s = somma(2, 10)
+# d = divisione(m, s)
+# s1 = somma(3, d)
+# risultato = sottrazione(s1, 7)
+# puts risultato 
+
+
+puts sottrazione(somma(3, divisione(moltiplicazione(4, 5), somma(2,10))), 7)
