@@ -8,7 +8,5 @@
 #     end
 # end
 
-def dispari_pari(num)
-  num % 2 == 1
-end
+def dispari_pari(num) = num % 2 == 1
 
