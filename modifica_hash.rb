@@ -4,9 +4,7 @@ a = {
   nome: "Francesca",
   cognome: "Colombo",
   età: 36,
-  film: [ "Young Shedon", "Titanic", "Ghost", "Amelie", "Sandman" ]
+  film: [ "Young Sheldon", "Titanic", "Ghost", "Amelie", "Sandman" ]
 }
 a[:film][1] = "The big bang theory"
-puts a
-
 puts a[:film][2]
