@@ -7,7 +7,10 @@ def pari(lista)
         l.append(el)
         end
     end
-    return l
+    l
 end
 
 
+# usare altri due modi per aggiungere elementi all'array (metodi array)
+# usare each 
+# usare select
