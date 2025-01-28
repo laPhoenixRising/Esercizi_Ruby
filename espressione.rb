@@ -1,24 +1,20 @@
 # usare i 4 metodi per calcolare l'espressione: 3 + (4 * 5) / (2 + 10) - 7
 
 def somma(a, b)
-    s = a + b
-    return s
+  a + b
 end
 
 def sottrazione(a, b)
-    s = a - b
-    return s
+  a - b
 end
 
 def moltiplicazione(a, b)
-    m = a * b
-    return m
+  a * b
 end
 
 def divisione(a, b)
-    d = a / b
-    return d
-end    
+  a / b
+end
 
 m = moltiplicazione(4, 5)
 s = somma(2, 10)
