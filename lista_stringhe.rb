@@ -10,3 +10,7 @@ list = []
 list.append(a, b, c, d, e)
 print list
 puts
+
+lista = ["ciao", "mondo", "come", "va", "bene"]
+print lista
+puts
