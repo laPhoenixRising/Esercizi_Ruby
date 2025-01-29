@@ -12,5 +12,36 @@ end
 
 
 # usare altri due modi per aggiungere elementi all'array (metodi array)
+
+def pari(lista)
+    l = []
+    for el in lista do
+        if el % 2 == 0
+        l.push(el)
+        end
+    end
+    l
+end
+
+def pari(lista)
+    l = []
+    for el in lista do
+        if el % 2 == 0
+        l << (el)
+        end
+    end
+    l
+end
+
+def pari(lista)
+    l = []
+    for el in lista do
+        if el % 2 == 0
+        l.unshift(el)
+        end
+    end
+    l
+end
+
 # usare each 
 # usare select
