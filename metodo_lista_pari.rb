@@ -44,4 +44,20 @@ def pari(lista)
 end
 
 # usare each 
+
+def pari(lista)
+    l = []
+    lista.each do |el|
+        if el.even?
+        l.append(el)
+        end
+    end
+    l
+end
+
 # usare select
+
+def pari(lista)
+    l = lista.select { |el| el.even? }
+    l
+end
