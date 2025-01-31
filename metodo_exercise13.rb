@@ -5,7 +5,7 @@ require 'json'
 
 def dati(h)
   json_string = JSON.pretty_generate(h)
-  File.write("file_json.txt", json_string)  
+  File.write("file_json.json", json_string)  
 end
 
 h = {
