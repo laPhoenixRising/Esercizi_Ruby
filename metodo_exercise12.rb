@@ -2,32 +2,37 @@
 # e ottiene in un'altra variabile la conversione in JSON dell'hash:
 # require 'json'
 # JSON.generate(...)
-# JSON.pretty_generate(...)
 
-def dati
-  require 'json'
-  h = {
-    first_name: "Francesca", 
-    last_name: "Colombo", 
-    age: 36, 
-    film: ["Titanic", "Ghost", "Young Sheldon", "Sandman"]
-  }
+require 'json'
+
+def dati(h)
   json_string = JSON.generate(h)
   puts json_string
 end
 
-dati
+h = {
+  first_name: "Francesca", 
+  last_name: "Colombo", 
+  age: 36, 
+  film: ["Titanic", "Ghost", "Young Sheldon", "Sandman"]
+}
 
-def dati2
-  require 'json'
-  h = {
-    first_name: "Francesca", 
-    last_name: "Colombo", 
-    age: 36, 
-    film: ["Titanic", "Ghost", "Young Sheldon", "Sandman"]
-  }
+dati(h)
+
+# JSON.pretty_generate(...)
+
+require 'json'
+
+def dati2(h)
   json_string = JSON.pretty_generate(h)
   puts json_string
 end
 
-dati2
+h = {
+  first_name: "Francesca", 
+  last_name: "Colombo", 
+  age: 36, 
+  film: ["Titanic", "Ghost", "Young Sheldon", "Sandman"]
+}
+
+dati2(h)
